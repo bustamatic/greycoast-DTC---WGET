@@ -4923,6 +4923,19 @@
           max-height: 60px
         }
 
+        .sqs-slide-wrapper[data-slide-type="cover-page"] [data-compound-type="logo"][data-slice-type="image"].greycoast-logo {
+          max-height: none;
+          width: min(72vw, 450px)
+        }
+
+        .sqs-slide-wrapper[data-slide-type="cover-page"] [data-compound-type="logo"][data-slice-type="image"].greycoast-logo img {
+          display: block;
+          width: 100% !important;
+          height: auto !important;
+          max-width: 100%;
+          max-height: none
+        }
+
         .sqs-slide-wrapper[data-slide-type="cover-page"] .heading-font {
           font-family: "Helvetica Neue", Arial, sans-serif;
           font-size: 130px;
@@ -7400,7 +7413,7 @@
                 data-average-color='{"topLeftAverage":"bdc8d9","topRightAverage":"786a56","bottomLeftAverage":"877e44","bottomRightAverage":"151806","centerAverage":"7b6c45","suggestedBgColor":"796f52"}'
                 style="background-color: #796f52">
                 <img data-src="https://bustamatic.github.io/greycoast-DTC---WGET/holden kitchen/Kitchen1.jpg"
-                  data-image=https://bustamatic.github.io/greycoast-DTC---WGET/holden kitchen/Kitchen1.jpg"
+                  data-image="https://bustamatic.github.io/greycoast-DTC---WGET/holden kitchen/Kitchen1.jpg"
                   data-image-dimensions="1000x667" data-image-focal-point="0.5,0.5" alt="basha9.jpg"
                   data-use-advanced-positioning="true" data-load="false" />
               </div>
@@ -7561,9 +7574,9 @@
         <div class="sqs-slide-layer layer-front full-width-height">
 
           <div class="sqs-slide-layer-content">
-            <div class="sqs-slice" data-slice-type="heading" data-compound-type="logo"
+            <div class="sqs-slice greycoast-logo" data-slice-type="image" data-compound-type="logo"
               data-slice-id="64c1982b8dfb113bb7514d8b">
-              <h1 id="sqs-slash-page-header">GREYCOAST</h1>
+              <img src="assets/greycoast-logo.png" alt="Greycoast" width="450" height="150">
             </div>
 
             <div class="sqs-slice-group group-copy">
